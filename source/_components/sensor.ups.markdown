@@ -29,7 +29,7 @@ Configuration options for the UPS Sensor:
 
 - **username** (*Required*): The username to access the UPS My Choice service.
 - **password** (*Required*): The password for the given username.
-- **name** (*Optional*): Name the sensor.
+- **name** (*Optional*): Name the sensor. Defaults to `ups`.
 - **update_inverval** (*Optional*): Minimum time interval between updates. Default is 1 hour. Supported formats:
   - `update_interval: 'HH:MM:SS'`
   - `update_interval: 'HH:MM'`
